@@ -33,3 +33,10 @@ class VentaProducto(models.Model):
     class Meta:
         verbose_name = "venta producto"
         verbose_name_plural = "ventas productos"
+
+def __str__(self):
+        return self.nombreVenta
+    
+class Meta:
+        verbose_name = "venta"
+        verbose_name_plural = "ventas"
